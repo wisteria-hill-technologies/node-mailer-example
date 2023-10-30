@@ -1,0 +1,1 @@
+# quick node-mailer example

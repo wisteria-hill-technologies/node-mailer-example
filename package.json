@@ -1,0 +1,24 @@
+{
+  "name": "mailer-example",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisteria-hill-technologies/node-mailer-example.git"
+  },
+  "author": "Nobuyuki Fujioka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisteria-hill-technologies/node-mailer-example/issues"
+  },
+  "homepage": "https://github.com/wisteria-hill-technologies/node-mailer-example#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.7"
+  }
+}
