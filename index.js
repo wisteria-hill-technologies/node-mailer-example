@@ -5,13 +5,9 @@ import nodemailer from 'nodemailer';
 const config = {
   host: process.env.EMAIL_SMTP_HOST,
   port: Number(process.env.EMAIL_SMTP_PORT),
-  secure: process.env.EMAIL_SMTP_SECURE === 'true',
   auth: {
     user: process.env.EMAIL_SMTP_USERNAME,
     pass: process.env.EMAIL_SMTP_PASSWORD,
-  },
-  tls: {
-    ciphers:'SSLv3'
   }
 };
 
